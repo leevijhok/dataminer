@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "dataminer"
+version = "1.0.0"
+description = "dataminer"
+authors = ["Leevi Hokkanen <leevijhok@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+start-ebay-spider = "scripts:start_ebay_spider"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scrapy = "^2.5.0"  
+python-dotenv = "^0.20.0"
+azure-cosmos = "^4.0.0"  
+fake-useragent = "^0.1.11"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
+black = "^22.1.0"
+flake8 = "^3.9.0"
+
+[tool.poetry.extras]
+sql-support = ["pyodbc"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

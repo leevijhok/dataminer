@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual environment
+venv/
+env/
+.env
+
+# Scrapy-specific folders
+*.egg-info/
+scrapy.cfg
+
+# Cache and logs
+.scrapy/
+*.log
+*.log.*
+
+# Output files (e.g., CSV, JSON, XML)
+output/
+*.csv
+*.json
+*.xml
+*.xls
+*.xlsx
+
+# Config files and sensitive data
+.env
+*.key
+*.pem
+*.crt
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Docker
+*.docker
+docker-compose.override.yml
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Compiled C extensions (if applicable)
+*.c
+*.o
+*.out
+
+# Build artifacts
+build/
+dist/
